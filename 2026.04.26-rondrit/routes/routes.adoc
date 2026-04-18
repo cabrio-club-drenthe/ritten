@@ -1,0 +1,55 @@
+---
+layout: post
+title: "De Wâd, weilân & Wêrom Rit"
+date: 2026-04-26
+categories: [rondrit]
+---
+# Routes
+
+[cols="3,1,1,1,1,1,1", options="header"]
+|===
+|Route
+|Afstand
+5+|Formaten
+
+|
+|
+|Kurviger
+|TomTom 5-8
+|TomTom 9
+|GPX
+|Advanced GPX
+
+|Deel 1 Roderesch - Leens
+|60 km
+|link:2026-04-26%20D1%20Roderesch%20-%20Leens.kurviger[image:../images/icon-download.jpg[Download,24,24]]
+|link:2026-04-26 D1 Roderesch - Leens.kurviger[image:../images/icon-download.jpg[Download,24,24]]
+|c
+|d
+|e
+
+|Deel 2 Leens - Hegebeimtum
+|
+|
+|
+|
+|
+|
+
+|Deel 3 Hegebeimtum - Burdaard
+|
+|
+|
+|
+|
+|
+
+|Deel 2 Burdaard - Oentsjerk
+|
+|
+|
+|
+|
+|
+
+|===
