@@ -1,0 +1,82 @@
+---
+layout: rondrit
+main: true
+permalink: /ritten/2026-04-26-wadden-weiland-en-terug/
+title: "De Wâd, weilân & Wêrom Rit"
+date: 2026-04-26
+afstand: 160
+tags:
+  - nederland
+  - drenthe
+  - friesland
+  - groningen
+  - lang
+  - dagrit
+organisatie: Tjeerd & Esther
+---
+include::_attrs.adoc[opts=optional]
+= {rit-titel}
+
+== Dag indeling
+
+[cols="1,2,2,1,1", options="header"]
+|===
+| Tijd
+| Locatie / Route
+| Adres
+| Duur
+| Afstand / Indicatie Prijs
+
+| 10:00 - 10:30
+| Ontvangst bij *Herberg van Es*
+| Hoofdweg 1, 9305 TD Roderesch
+| 30 min
+|
+
+| 10:30 - 12:00
+2+| link:routes/[Route deel 1: Roderesch - Leens]
+| 90 min
+| 60 km
+
+| 12:00 - 12:45
+| Lunch bij *Ons Schathoes / Verhildersum*
+| Wierde 42, 9965 TB Leens
+| 45 min
+| € 24 / persoon
+
+| 12:45 - 14:00
+2+| link:routes/[Route deel 2: Leens - Hegebeintum]
+| 75 min
+| 60 km
+
+| 14:00 - 15:30
+| Bezoek aan museum **Terp Hegebeintum**
+| Pypkedyk 4, 9173 GC Hegebeintum
+| 90 min
+| € 10 / persoon
+
+| 15:30 - 16:00
+2+| link:routes/[Route deel 3: Hegebeintum - Burdaard]
+| 30 min
+| 10 - 15 km
+
+| 16:00 - 16:45
+| Drankje bij **Restaurant It Posthûs**
+| Ds. R.H. Kuipersstraat 1, 9111 HA Burdaard
+| 45 min
+|
+
+| 16:45 - 17:30
+2+| link:routes/[Route deel 4: Burdaard - Oentsjerk]
+| 45 min
+| 10 - 15 km
+
+| 17:30 - 19:00
+| Dineren bij *Stania State*
+| Rengersweg 98b, 9062 EJ Oentsjerk
+| 90 min
+| € 35 / persoon (ex drankjes)
+
+|===
+
+*Totaal: ca. {rit-afstand}*

@@ -1,0 +1,4 @@
+:rit-titel: De Wâd, weilân & Wêrom Rit
+:rit-datum: 26 april 2026
+:rit-dag: Zondag
+:rit-afstand: 160 km

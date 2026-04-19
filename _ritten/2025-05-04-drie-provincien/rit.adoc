@@ -1,0 +1,44 @@
+---
+layout: rondrit
+main: true
+permalink: /ritten/2025-05-04-drie-provincien/
+title: "Drie Provincien"
+date: 2025-05-04
+afstand: 125
+tags:
+  - drenthe
+  - friesland
+  - groningen
+  - lang
+  - dagrit
+organisatie: Tjeerd & Esther
+---
+include::_attrs.adoc[opts=optional]
+= {rit-titel}
+
+== Dag indeling
+
+[cols="1,2,2,1,1", options="header"]
+|===
+|Tijd
+|Locatie / Route
+|Adres
+|Duur
+|Afstand
+
+
+|9:45 - 10:30
+|Ontvangst bij **De Slotplaats**
+|Foarwurker Wei 3, 9243  JZ Bakkeveen
+|45 min
+|
+
+|11:30-12:45
+|Bezoek **Fogelsangh-State**
+|Kleasterwei 3, 9297 WR Veenklooster
+|75 min
+|
+
+|===
+
+*Totaal: ca. {rit-afstand}*

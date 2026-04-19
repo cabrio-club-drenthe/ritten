@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<h1>Rondrits: {{ page.tag }}</h1>
+
+<div class="item-grid">
+  {% assign gefilterd = site.ritten | where_exp: "item", "item.tags contains page.tag" | sort: "date" | reverse %}
+  {% for item in gefilterd %}
+    {% include card.html item=item %}
+  {% endfor %}
+  {% if gefilterd.size == 0 %}
+  <p>Geen ritten gevonden met tag &ldquo;{{ page.tag }}&rdquo;.</p>
+  {% endif %}
+</div>
+
+<p><a href="{{ '/' | relative_url }}">&larr; Alle ritten</a></p>

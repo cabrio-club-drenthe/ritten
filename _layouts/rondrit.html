@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<article class="rondrit">
+  <header class="rondrit-header">
+    {% assign rit_naam = page.permalink | split: "/" | slice: 2, 1 | first %}
+    <img class="rondrit-foto" src="/assets/ritten/{{ rit_naam }}/fotos/rit.jpeg"
+         onerror="this.src='/assets/img/rit-default.svg'"
+         alt="{{ page.title }}">
+    <div class="rondrit-header-tekst">
+    <h1>{{ page.title }}</h1>
+    <div class="rondrit-meta">
+      <time datetime="{{ page.date | date: '%Y-%m-%d' }}">
+        {{ page.date | date: "%-d %B %Y" }}
+      </time>
+      {% if page.afstand %}
+      <span class="afstand">{{ page.afstand }} km</span>
+      {% endif %}
+    </div>
+    {% if page.tags %}
+    <div class="rondrit-tags">
+      {% for tag in page.tags %}
+      <a href="{{ '/tags/' | append: tag | relative_url }}" class="tag">{{ tag }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+    </div>
+  </header>
+
+  <div class="rondrit-content">
+    {{ content }}
+  </div>
+
+  {% if page.routes %}
+  <section class="rondrit-downloads">
+    <h2>Routes downloaden</h2>
+    <ul class="download-list">
+      {% for route in page.routes %}
+      <li>
+        <a href="{{ route.gpx | relative_url }}" class="download-link" download>
+          ⬇ {{ route.naam }} (GPX)
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</article>
+
+<nav class="rondrit-nav">
+  <a href="{{ '/' | relative_url }}">&larr; Alle ritten</a>
+</nav>

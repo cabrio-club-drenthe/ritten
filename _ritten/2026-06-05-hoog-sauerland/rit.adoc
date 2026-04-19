@@ -1,0 +1,36 @@
+---
+layout: rondrit
+main: true
+permalink: /ritten/2026-06-05-hoog-sauerland/
+title: "De Hoog Sauerland Rit"
+date: 2026-06-05
+afstand:
+tags:
+  - duitsland
+  - sauerland
+  - lang
+  - dagrit
+organisatie: Roelof & Helen
+---
+include::_attrs.adoc[opts=optional]
+= {rit-titel}
+
+== Dag indeling
+
+[cols="1,2,2,1,1", options="header"]
+|===
+| Tijd
+| Locatie / Route
+| Adres
+| Duur
+| Afstand
+
+|
+|
+|
+|
+|
+
+|===
+
+*Totaal: ca. {rit-afstand}*

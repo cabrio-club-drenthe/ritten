@@ -1,0 +1,33 @@
+---
+permalink: /ritten/2026-04-26-wadden-weiland-en-terug/routes/
+---
+include::./_attrs.adoc[opts=optional]
+= {rit-titel} - Routes
+
+[cols="2,1,1,1,1,1,1"]
+|===
+.2+h| Route naam
+.2+h| Afstand
+5+h| Formaten
+
+h| Kurviger
+h| GPX
+h| GPX Advanced
+h| TomTom 5-8
+h| TomTom 9.5
+
+| D1 Roderesch - Leens | 60 km
+| link:/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D1%20Roderesch%20-%20Leens.kurviger[↓ Kurviger]
+| link:/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D1%20Roderesch%20-%20Leens.gpx[↓ GPX]
+| link:/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D1%20Roderesch%20-%20Leens%20%28adv%20gpx%29.gpx[↓ GPX Advanced]
+| link:/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D1%20Roderesch%20-%20Leens%20%285-8%29.itn[↓ TomTom 5-8]
+| link:/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D1%20Roderesch%20-%20Leens%20%289.5%29.itn[↓ TomTom 9.5]
+
+| D2 Leens - Hegebeintum | 60 km
+| link:/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D2%20Leens%20-%20Hegebeintum.kurviger[↓ Kurviger]
+| link:/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D2%20Leens%20-%20Hegebeintum.gpx[↓ GPX]
+| link:/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D2%20Leens%20-%20Hegebeintum%20%28adv%20gpx%29.gpx[↓ GPX Advanced]
+| link:/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D2%20Leens%20-%20Hegebeintum%20%285-8%29.itn[↓ TomTom 5-8]
+| link:/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D2%20Leens%20-%20Hegebeintum%20%289.5%29.itn[↓ TomTom 9.5]
+
+|===

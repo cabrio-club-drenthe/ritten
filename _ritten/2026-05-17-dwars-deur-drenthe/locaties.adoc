@@ -1,0 +1,25 @@
+---
+layout: rondrit
+permalink: /ritten/2026-05-17-dwars-deur-drenthe/locaties/
+title: "Dwars deur Drenthe - Locaties"
+date: 2026-05-17
+tags:
+  - drenthe
+  - lang
+  - dagrit
+---
+= {page-title}
+
+[cols="1,2,1,2", options="header"]
+|===
+|Locatie
+|Adres
+|Telefoon
+|E-mail
+
+|
+|
+|
+|
+
+|===

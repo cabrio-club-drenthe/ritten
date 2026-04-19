@@ -1,0 +1,4 @@
+:rit-titel: Drie Provincien
+:rit-datum: 4 mei 2025
+:rit-dag: Zondag
+:rit-afstand: pm

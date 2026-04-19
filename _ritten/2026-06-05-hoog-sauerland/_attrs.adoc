@@ -1,0 +1,4 @@
+:rit-titel: De Hoog Sauerland Rit
+:rit-datum: 5 juni 2026
+:rit-dag: Vrijdag
+:rit-afstand: pm

@@ -1,0 +1,19 @@
+---
+permalink: /ritten/2025-05-04-drie-provincien/routes/
+---
+include::./_attrs.adoc[opts=optional]
+= {rit-titel} - Routes
+
+[cols="2,1,1,1,1,1,1"]
+|===
+.2+h| Route naam
+.2+h| Afstand
+5+h| Formaten
+
+h| Kurviger
+h| GPX
+h| GPX Advanced
+h| TomTom 5-8
+h| TomTom 9.5
+
+|===

@@ -1,0 +1,58 @@
+<div class="filter-bar" id="filter-bar">
+  {% for group in site.data.tag_groups %}
+  <div class="filter-group">
+    <span class="filter-group-label">{{ group.label }}</span>
+    {% if group.subgroepen %}
+      <div class="filter-subgroepen">
+        {% for sub in group.subgroepen %}
+        <div class="filter-subgroep">
+          <span class="filter-subgroep-label">{{ sub.label }}</span>
+          <div class="filter-group-tags">
+            {% for tag in sub.tags %}
+            <button class="tag" data-filter-tag="{{ tag }}" type="button">
+              {{ tag }} <span class="tag-count"></span>
+            </button>
+            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="filter-group-tags">
+        {% for tag in group.tags %}
+        <button class="tag" data-filter-tag="{{ tag }}" type="button">
+          {{ tag }} <span class="tag-count"></span>
+        </button>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+
+  {% assign jaren_str = "" %}
+  {% for rit in site.ritten %}
+    {% if rit.main %}
+      {% assign jaar = rit.date | date: "%Y" %}
+      {% assign jaren_str = jaren_str | append: jaar | append: "," %}
+    {% endif %}
+  {% endfor %}
+  {% assign jaren = jaren_str | split: "," | uniq | sort %}
+  {% if jaren.size > 0 %}
+  <div class="filter-group">
+    <span class="filter-group-label">Jaar</span>
+    <div class="filter-group-tags">
+      {% for jaar in jaren %}
+      <button class="tag" data-filter-tag="{{ jaar }}" type="button">
+        {{ jaar }} <span class="tag-count"></span>
+      </button>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="filter-actions">
+    <button id="filter-clear" type="button">Wis filter</button>
+  </div>
+</div>
+
+<div id="filter-status" class="filter-status" aria-live="polite"></div>

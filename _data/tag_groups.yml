@@ -1,0 +1,21 @@
+- label: Regio
+  subgroepen:
+    - label: Nederland
+      tags:
+        - drenthe
+        - friesland
+        - groningen
+    - label: Duitsland
+      tags:
+        - sauerland
+
+- label: Afstand
+  tags:
+    - kort
+    - middel
+    - lang
+
+- label: Duur
+  tags:
+    - dagrit
+    - halve-dag

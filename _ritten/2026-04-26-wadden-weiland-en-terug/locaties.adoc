@@ -1,3 +1,12 @@
+---
+layout: rondrit
+permalink: /ritten/2026-04-26-wadden-weiland-en-terug/locaties/
+title: "De Wâd, weilân & Wêrom Rit - Locaties"
+date: 2026-04-26
+---
+include::_attrs.adoc[opts=optional]
+= {rit-titel} - Locaties
+
 [cols="1,2,1,2", options="header"]
 |===
 |Locatie

@@ -1,0 +1,17 @@
+---
+layout: rondrit
+permalink: /ritten/2026-06-05-hoog-sauerland/locaties/
+title: "De Hoog Sauerland Rit - Locaties"
+date: 2026-06-05
+---
+include::_attrs.adoc[opts=optional]
+= {rit-titel} - Locaties
+
+[cols="1,2,1,2", options="header"]
+|===
+|Locatie
+|Adres
+|Telefoon
+|E-mail
+
+|===

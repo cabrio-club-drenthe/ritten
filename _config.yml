@@ -1,0 +1,50 @@
+title: Cabrio Club Drenthe - Routeboeken
+description: Routeboeken en dagindelingen van de Cabrio Club Drenthe.
+baseurl: ""
+url: ""
+lang: nl
+
+# Build settings
+markdown: kramdown
+
+# AsciiDoc
+asciidoc:
+  page_attribute_prefix: page
+  page-attribute-prefix: page
+asciidoctor:
+  base_dir: :docdir
+  safe: unsafe
+  attributes:
+    source-highlighter: rouge
+    icons: font
+
+# Collecties
+collections:
+  ritten:
+    output: true
+    permalink: /ritten/:name/
+
+future: true
+
+defaults:
+  - scope:
+      path: ""
+      type: ritten
+    values:
+      layout: rondrit
+
+# Bestanden/mappen die Jekyll moet negeren
+exclude:
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - "2026.04.26-rondrit"
+
+# Plugins
+feed:
+  collections: []
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-asciidoc

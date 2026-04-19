@@ -1,0 +1,30 @@
+{% assign jaar = include.item.date | date: "%Y" %}
+<article class="card" data-tags="{{ include.item.tags | join: ' ' }} {{ jaar }}">
+  <a href="{{ include.item.url | relative_url }}" class="card-link">
+    {% assign rit_naam = include.item.permalink | split: "/" | slice: 2, 1 | first %}
+    <div class="card-cover">
+      <img src="/assets/ritten/{{ rit_naam }}/fotos/rit.jpeg"
+           onerror="this.src='/assets/img/rit-default.svg'"
+           alt="{{ include.item.title }}"
+           loading="lazy">
+    </div>
+    <div class="card-body">
+      <h2 class="card-title">{{ include.item.title }}</h2>
+      <div class="card-meta">
+        <time datetime="{{ include.item.date | date: '%Y-%m-%d' }}">
+          {{ include.item.date | date: "%-d %B %Y" }}
+        </time>
+        {% if include.item.afstand %}
+        <span class="afstand">{{ include.item.afstand }} km</span>
+        {% endif %}
+      </div>
+      {% if include.item.tags %}
+      <div class="card-tags">
+        {% for tag in include.item.tags %}
+        <span class="tag" data-filter-tag="{{ tag }}">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </a>
+</article>

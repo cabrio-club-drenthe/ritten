@@ -1,0 +1,307 @@
+---
+---
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  line-height: 1.6;
+  color: #222;
+}
+
+a { color: #1a5c9a; }
+
+// ── Navigatie ──────────────────────────────────────────────────────────────
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 2px solid #d0d0d0;
+  margin-bottom: 2rem;
+}
+
+.site-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+// ── Homepagina grid ────────────────────────────────────────────────────────
+
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+// ── Gereden ritten ─────────────────────────────────────────────────────────
+
+.gereden-header {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 2px solid #d0d0d0;
+
+  h2 {
+    font-size: 1.1rem;
+    color: #888;
+    font-weight: normal;
+    margin: 0 0 1.5rem;
+  }
+}
+
+// ── Kaartje ────────────────────────────────────────────────────────────────
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.15s;
+
+  &:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+
+  &[hidden] { display: none; }
+}
+
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-body { padding: 1rem; }
+
+.card-cover {
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.card-title {
+  margin: 0 0 0.4rem;
+  font-size: 1.1rem;
+}
+
+.card-meta {
+  font-size: 0.85rem;
+  color: #666;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.card-tags { margin-top: 0.5rem; }
+
+// ── Tags ───────────────────────────────────────────────────────────────────
+
+.tag {
+  display: inline-block;
+  background: #eef2f7;
+  border: 1px solid #c5d3e0;
+  border-radius: 4px;
+  padding: 2px 8px;
+  margin: 2px;
+  font-size: 0.78rem;
+  text-decoration: none;
+  color: #1a5c9a;
+  cursor: pointer;
+
+  &.is-active {
+    background: #1a5c9a;
+    border-color: #1a5c9a;
+    color: #fff;
+  }
+}
+
+button.tag {
+  font-family: inherit;
+
+  &:hover { background: #d0dff0; }
+  &.is-active:hover { background: #155089; }
+}
+
+.tag-count {
+  font-size: 0.7em;
+  opacity: 0.75;
+
+  &:not(:empty)::before { content: " ("; }
+  &:not(:empty)::after  { content: ")"; }
+}
+
+// ── Filterbar ──────────────────────────────────────────────────────────────
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1rem;
+  background: #f7f9fb;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.filter-group-label {
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #666;
+}
+
+.filter-subgroepen {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.filter-subgroep {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.filter-subgroep-label {
+  font-size: 0.75rem;
+  color: #888;
+  min-width: 5rem;
+}
+
+.filter-group-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.filter-actions { align-self: flex-end; }
+
+#filter-clear {
+  background: none;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 3px 10px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: #555;
+
+  &:hover { background: #eee; }
+}
+
+.filter-status {
+  font-size: 0.85rem;
+  color: #555;
+  min-height: 1.2em;
+  margin-bottom: 0.5rem;
+}
+
+// ── Rondrit detailpagina ───────────────────────────────────────────────────
+
+.rondrit-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.rondrit-foto {
+  width: 150px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.rondrit-header-tekst { flex: 1; }
+
+.rondrit-meta {
+  display: flex;
+  gap: 1.5rem;
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.afstand { font-weight: bold; }
+
+.rondrit-tags { margin-top: 0.5rem; }
+
+.rondrit-content {
+  margin-bottom: 2rem;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+    }
+
+    th { background: #f0f4f8; font-weight: bold; }
+    th.valign-top, td.valign-top { vertical-align: top; }
+    tr:nth-child(even) td { background: #fafafa; }
+  }
+}
+
+.rondrit-downloads {
+  background: #f7f9fb;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.2rem;
+  margin-bottom: 2rem;
+
+  h2 { margin-top: 0; font-size: 1.1rem; }
+}
+
+.download-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.download-link {
+  display: inline-block;
+  padding: 6px 12px;
+  background: #1a5c9a;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin: 4px 0;
+
+  &:hover { background: #155089; }
+}
+
+.rondrit-nav { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #ddd; }
+
+// ── Footer ─────────────────────────────────────────────────────────────────
+
+.site-footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+  font-size: 0.85rem;
+  color: #888;
+}
