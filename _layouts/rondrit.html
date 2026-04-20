@@ -4,8 +4,8 @@ layout: default
 <article class="rondrit">
   <header class="rondrit-header">
     {% assign rit_naam = page.permalink | split: "/" | slice: 2, 1 | first %}
-    <img class="rondrit-foto" src="/assets/ritten/{{ rit_naam }}/fotos/rit.jpeg"
-         onerror="this.src='/assets/img/rit-default.svg'"
+    <img class="rondrit-foto" src="{{ site.baseurl }}/assets/ritten/{{ rit_naam }}/fotos/rit.jpeg"
+         onerror="this.src='{{ site.baseurl }}/assets/img/rit-default.svg'"
          alt="{{ page.title }}">
     <div class="rondrit-header-tekst">
     <h1>{{ page.title }}</h1>
