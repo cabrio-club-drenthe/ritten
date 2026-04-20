@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '{{ site.baseurl }}/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   {% feed_meta %}
   {% seo %}
 </head>
@@ -17,7 +17,7 @@
     <p>{{ site.title }}</p>
   </footer>
   {% if page.use_filter %}
-  <script src="{{ '{{ site.baseurl }}/assets/js/filter.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/filter.js' | relative_url }}"></script>
   {% endif %}
 </body>
 </html>
