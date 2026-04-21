@@ -4,6 +4,16 @@ permalink: /ritten/2026-04-26-wadden-weiland-en-terug/routes/
 include::./_attrs.adoc[opts=optional]
 = {rit-titel} - Routes
 
+
+
+[NOTE]
+.Opmerking m.b.t. TomTom
+====
+De TomTom ITN-bestanden zijn alleen bruikbaar op een fysiek TomTom-apparaat met SD-kaart of USB-aansluiting.
+
+Voor TomTom Plan (eerder MyDrive) kun je de GPX of Advanced GPX bestanden gebruiken.
+====
+
 [cols="2,1,1,1,1,1,1"]
 |===
 .2+h| Route naam
