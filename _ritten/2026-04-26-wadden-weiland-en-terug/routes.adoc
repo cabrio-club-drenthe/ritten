@@ -14,15 +14,16 @@ De TomTom ITN-bestanden zijn alleen bruikbaar op een fysiek TomTom-apparaat met 
 Voor TomTom Plan (eerder MyDrive) kun je de GPX of Advanced GPX bestanden gebruiken.
 ====
 
-[cols="2,1,1,1,1,1,1"]
+[cols="2,1,1,1,1,1,1,1"]
 |===
 .2+h| Route naam
 .2+h| Afstand
-5+h| Formaten
+6+h| Formaten
 
 h| Kurviger
 h| GPX
 h| GPX Advanced
+h| Plan TomTom
 h| TomTom 5-8
 h| TomTom 9.5
 
@@ -30,6 +31,7 @@ h| TomTom 9.5
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D1%20Roderesch%20-%20Leens.kurviger[↓ Kurviger]
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D1%20Roderesch%20-%20Leens.gpx[↓ GPX]
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D1%20Roderesch%20-%20Leens%20%28adv%20gpx%29.gpx[↓ GPX Advanced]
+| https://plan.tomtom.com/route/view/d7fcca63-4893-4ecd-a58b-970b98f97a23[Plan]
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D1%20Roderesch%20-%20Leens%20%285-8%29.itn[↓ TomTom 5-8]
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D1%20Roderesch%20-%20Leens%20%289.5%29.itn[↓ TomTom 9.5]
 
@@ -37,6 +39,7 @@ h| TomTom 9.5
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D2%20Leens%20-%20Hegebeintum.kurviger[↓ Kurviger]
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D2%20Leens%20-%20Hegebeintum.gpx[↓ GPX]
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D2%20Leens%20-%20Hegebeintum%20%28adv%20gpx%29.gpx[↓ GPX Advanced]
+| https://plan.tomtom.com/route/view/5444be14-300f-4fe8-837a-4ecb31144fb2[Plan]
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D2%20Leens%20-%20Hegebeintum%20%285-8%29.itn[↓ TomTom 5-8]
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D2%20Leens%20-%20Hegebeintum%20%289.5%29.itn[↓ TomTom 9.5]
 
@@ -44,6 +47,7 @@ h| TomTom 9.5
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D3%20Hegebeintum%20-%20Burdaard.kurviger[↓ Kurviger]
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D3%20Hegebeintum%20-%20Burdaard.gpx[↓ GPX]
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D3%20Hegebeintum%20-%20Burdaard%20%28adv%20gpx%29.gpx[↓ GPX Advanced]
+| https://plan.tomtom.com/route/view/ccf25ebc-7610-4169-ba60-0bfc630e4e6c[Plan]
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D3%20Hegebeintum%20-%20Burdaard%20%285-8%29.itn[↓ TomTom 5-8]
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D3%20Hegebeintum%20-%20Burdaard%20%289.5%29.itn[↓ TomTom 9.5]
 
@@ -51,6 +55,7 @@ h| TomTom 9.5
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D4%20Burdaard%20-%20Oentsjerk.kurviger[↓ Kurviger]
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D4%20Burdaard%20-%20Oentsjerk.gpx[↓ GPX]
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D4%20Burdaard%20-%20Oentsjerk%20%28adv%20gpx%29.gpx[↓ GPX Advanced]
+| https://plan.tomtom.com/route/view/a0dd0fe9-139b-4d56-97d1-13eb092a6614[Plan]
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D4%20Burdaard%20-%20Oentsjerk%20%285-8%29.itn[↓ TomTom 5-8]
 | link:{site-baseurl}/assets/ritten/2026-04-26-wadden-weiland-en-terug/routes/2026-04-26%20D4%20Burdaard%20-%20Oentsjerk%20%289.5%29.itn[↓ TomTom 9.5]
 
