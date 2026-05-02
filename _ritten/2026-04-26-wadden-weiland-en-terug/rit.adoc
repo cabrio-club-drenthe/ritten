@@ -4,7 +4,7 @@ main: true
 permalink: /ritten/2026-04-26-wadden-weiland-en-terug/
 title: "De Wâd, weilân & Wêrom Rit"
 date: 2026-04-26
-afstand: 160
+afstand: {rit-afstand}
 tags:
   - nederland
   - drenthe
@@ -50,7 +50,7 @@ include::_attrs.adoc[opts=optional]
 | 60 km
 
 | 14:00 - 15:30
-| Bezoek aan museum **Terp Hegebeintum**
+| Bezoek aan museum *Terp Hegebeintum*
 | Pypkedyk 4, 9173 GC Hegebeintum
 | 90 min
 | € 10 / persoon
@@ -61,7 +61,7 @@ include::_attrs.adoc[opts=optional]
 | 10 - 15 km
 
 | 16:00 - 16:45
-| Drankje bij **Restaurant It Posthûs**
+| Drankje bij *Restaurant It Posthûs*
 | Ds. R.H. Kuipersstraat 1, 9111 HA Burdaard
 | 45 min
 |

@@ -17,9 +17,19 @@ tags:
 |Telefoon
 |E-mail
 
-|
-|
-|
-|
+|https://maps.app.goo.gl/Y9nXzNfCwLq2rxYo8[Bistro Aa]
+|Asserstraat 63, 9451 TA Rolde
+|0592 201 139
+|info@bistroaa.nl
+
+|https://maps.app.goo.gl/93QqAiXAuP5K7mwLA[Koffie- en Theehuis Bi'j Oons]
+|Voornweg 1, 7938 RC Nieuw Balinge
+|0528 321 533
+|J.slomp5@kpnplanet.nl
+
+|https://maps.app.goo.gl/93QqAiXAuP5K7mwLA[Eetcafé Hegeman]
+|Hoofdstraat 16, 9443 PA Schoonloo 
+|0592 50 1268
+|info@hegeman-horeca.nl
 
 |===

@@ -4,7 +4,7 @@ main: true
 permalink: /ritten/2026-05-17-dwars-deur-drenthe/
 title: "Dwars deur Drenthe"
 date: 2026-05-17
-afstand: 22
+afstand: 130
 tags:
   - drenthe
   - lang
@@ -16,6 +16,14 @@ include::_attrs.adoc[opts=optional]
 
 == Dag indeling
 
+De route is ongeveer 130 km lang en wordt alleen via gpx naar u toe verzonden.
+
+Er zijn onderweg voldoende mogelijkheden voor een terrasje, of bezienswaardigheden of even de benen te strekken. Zie de folder, deze ontvang je samen in de week voor de rit met de GPX.
+
+Wij wensen jullie een fijne dag.
+
+Groetjes Chris en Erna
+
 [cols="1,2,2,1,1", options="header"]
 |===
 | Tijd
@@ -24,56 +32,34 @@ include::_attrs.adoc[opts=optional]
 | Duur
 | Afstand
 
-| 10:00 - 10:30
-| Ontvangst bij *Herberg van Es*
-| Hoofdweg 1, 9305 TD Roderesch
-| 30 min
-|
-
-| 10:30 - 12:00
-2+| link:routes/[Route deel 1: Roderesch - Leens]
-| 90 min
-| 60 - 70 km
-
-| 12:00 - 12:45
-| Lunch bij *Ons Schathoes / Verhildersum*
-| Wierde 42, 9965 TB Leens
+| 10:00 - 10:45
+| Ontvangst bij https://maps.app.goo.gl/tkvZmCEAGGqF89GNA[*Bistro Aa*]
+| Asserstraat 63, 9451 TA Rolde
 | 45 min
 |
 
-| 12:45 - 14:00
-2+| link:routes/[Route deel 2: Leens - Hegebeintum]
-| 75 min
-| 50 - 60 km
+|
+2+| Nog niet beschikbaar gesteld
+| 
+| 
 
-| 14:00 - 15:30
-| Terp Hegebeintum
-| Pypkedyk 4, 9173 GC Hegebeintum
-| 90 min
+|
+| Lunch bij https://maps.app.goo.gl/93QqAiXAuP5K7mwLA[*Koffie- en Theehuis Bi'j Oons*]
+| Voornweg 1, 7938 RC Nieuw Balinge
+|
 |
 
-| 15:30 - 16:00
-2+| link:routes/[Route deel 3: Hegebeintum - Burdaard]
-| 30 min
-| 10 - 15 km
-
-| 16:00 - 16:45
-| Restaurant It Posthûs
-| Ds. R.H. Kuipersstraat 1, 9111 HA Burdaard
-| 45 min
+|
+2+| Nog niet beschikbaar gesteld
+|
 |
 
-| 16:45 - 17:30
-2+| link:routes/[Route deel 4: Burdaard - Oentsjerk]
-| 45 min
-| 10 - 15 km
-
-| 17:30 - 19:00
-| Dineren bij *Stania State*
-| Rengersweg 98b, 9062 EJ Oentsjerk
-| 90 min
+|
+| Eindpunt bij https://maps.app.goo.gl/93QqAiXAuP5K7mwLA[*Eetcafé Hegeman*]
+| Hoofdstraat 16, 9443 PA Schoonloo 
+|
 |
 
 |===
 
-*Totaal: ca. 160 km*
+*Totaal: ca. {rit-afstand}*

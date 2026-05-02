@@ -1,4 +1,4 @@
 :rit-titel: Dwars deur Drenthe
 :rit-datum: 17 mei 2026
 :rit-dag: Zondag
-:rit-afstand: 22 km
+:rit-afstand: 130 km
