@@ -14,7 +14,7 @@ organisatie: Chris & Erna
 include::_attrs.adoc[opts=optional]
 = {rit-titel}
 
-== Dag indeling
+== Dagindeling
 
 De route is ongeveer 130 km lang en wordt alleen via gpx naar u toe verzonden.
 

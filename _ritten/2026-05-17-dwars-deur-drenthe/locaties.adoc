@@ -8,7 +8,8 @@ tags:
   - lang
   - dagrit
 ---
-= {page-title}
+include::./_attrs.adoc[opts=optional]
+= {rit-titel} - Locaties
 
 [cols="1,2,1,2", options="header"]
 |===

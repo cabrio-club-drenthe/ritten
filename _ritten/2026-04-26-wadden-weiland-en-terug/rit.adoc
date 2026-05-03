@@ -17,7 +17,7 @@ organisatie: Tjeerd & Esther
 include::_attrs.adoc[opts=optional]
 = {rit-titel}
 
-== Dag indeling
+== Dagindeling
 
 [cols="1,2,2,1,1", options="header"]
 |===
