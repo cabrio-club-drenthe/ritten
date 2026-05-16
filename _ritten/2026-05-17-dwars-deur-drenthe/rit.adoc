@@ -63,3 +63,7 @@ Groetjes Chris en Erna
 |===
 
 *Totaal: ca. {rit-afstand}*
+
+== Documenten
+
+link:{site-baseurl}/assets/ritten/2026-05-17-dwars-deur-drenthe/docs/2026-05-17-weetjes-over-de-rit.pdf[↓ Weetjes over de rit (PDF)]
