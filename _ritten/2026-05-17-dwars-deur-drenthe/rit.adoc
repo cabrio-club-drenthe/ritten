@@ -39,9 +39,9 @@ Groetjes Chris en Erna
 |
 
 |
-2+| Nog niet beschikbaar gesteld
-| 
-| 
+2+| link:routes/[Route deel 1: Rolde - Nieuw Balinge]
+|
+| ~50 km
 
 |
 | Lunch bij https://maps.app.goo.gl/93QqAiXAuP5K7mwLA[*Koffie- en Theehuis Bi'j Oons*]
@@ -50,9 +50,9 @@ Groetjes Chris en Erna
 |
 
 |
-2+| Nog niet beschikbaar gesteld
+2+| link:routes/[Route deel 2: Nieuw Balinge - Schoonloo]
 |
-|
+| ~80 km
 
 |
 | Eindpunt bij https://maps.app.goo.gl/93QqAiXAuP5K7mwLA[*Eetcafé Hegeman*]

@@ -4,22 +4,19 @@ permalink: /ritten/2026-05-17-dwars-deur-drenthe/routes/
 include::./_attrs.adoc[opts=optional]
 = {rit-titel} - Routes
 
-[cols="2,1,1,1,1,1"]
+[cols="2,1,1,1,1"]
 |===
 .2+h| Route naam
 .2+h| Afstand
-4+h| Formaten
+3+h| Formaten
 
 h| Kurviger
 h| GPX
-h| GPX Advanced
 h| Plan TomTom
 
-| 
-| 
-| 
-| 
-| 
-|
+| Dwars door Drenthe | 130 km
+| link:{site-baseurl}/assets/ritten/2026-05-17-dwars-deur-drenthe/routes/2026-05-17-dwars-deur-drenthe-1.0.kurviger[↓ Kurviger]
+| link:{site-baseurl}/assets/ritten/2026-05-17-dwars-deur-drenthe/routes/2026-05-17-dwars-deur-drenthe-1.0.gpx[↓ GPX]
+| https://plan.tomtom.com/route/view/1d718461-e062-4d98-8eea-8ed11fffee17[Plan]
 
 |===
