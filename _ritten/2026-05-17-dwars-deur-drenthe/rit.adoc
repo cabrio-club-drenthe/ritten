@@ -39,7 +39,7 @@ Groetjes Chris en Erna
 |
 
 |
-2+| link:routes/[Route deel 1: Rolde - Nieuw Balinge]
+2+| Route deel 1: Rolde - Nieuw Balinge
 |
 | ~50 km
 
@@ -50,7 +50,7 @@ Groetjes Chris en Erna
 |
 
 |
-2+| link:routes/[Route deel 2: Nieuw Balinge - Schoonloo]
+2+| Route deel 2: Nieuw Balinge - Schoonloo
 |
 | ~80 km
 

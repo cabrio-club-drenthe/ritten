@@ -1,5 +1,6 @@
 ---
 permalink: /ritten/2026-04-26-wadden-weiland-en-terug/routes/
+date: 2026-04-26
 ---
 include::./_attrs.adoc[opts=optional]
 = {rit-titel} - Routes
